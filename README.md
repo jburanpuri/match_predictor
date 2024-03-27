@@ -1,25 +1,26 @@
-# Match predictor
+# Match Predictor Project
 
-The Match Predictor codebase contains an app with several predictors for football results.
+## Project Overview
+The Match Predictor is designed to forecast football match outcomes using advanced data analysis and machine learning techniques. This innovative application combines various predictive models to ensure accurate and reliable predictions.
 
-## Local development
+## Predictive Models
+The backend features a suite of predictors, including:
+- Alphabet Model
+- Gaussian Naive Bayes
+- Points
+- Offense Simulator (Fast)
+- Offense Simulator
+- Full Simulator
+- Linear Regression
 
-Follow the instructions below to get the app up and running on your machine.
+These models are tested and evaluated for accuracy, utilizing a unittest framework. 
 
-1.  Install Python 3.10 and a recent version of NPM.
-1.  Install dependencies and run tests.
-    ```shell
-    make install test
-    ```
-1.  View the list of available tasks
-    ```shell
-    make
-    ```
+## Testing Methodology
+All predictors undergo testing to evaluate their performance.
+
+## Running the code
 
 ## Backend
-
-Here are a few tasks that are useful when running the backend app.
-Make sure they all run on your machine.
 
 1.  Run tests
     ```shell
@@ -42,9 +43,6 @@ Make sure they all run on your machine.
 
 ## Frontend
 
-Here are a few tasks that are useful when running the frontend app.
-Make sure they all run on your machine.
-
 1.  Run tests
     ```shell
     make frontend/test
@@ -56,9 +54,6 @@ Make sure they all run on your machine.
     ```
 
 ## Integration tests
-
-If it's helpful, you may want to run integration tests during development.
-Do so with the tasks below.
 
 1.  Run tests
     ```shell
